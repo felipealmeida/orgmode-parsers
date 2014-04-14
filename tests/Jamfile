@@ -1,0 +1,11 @@
+
+import testing ;
+
+project orgmode-parser/tests ;
+
+alias tests
+ : [ testing.run preamble.cpp /orgmode-parser//orgmode-parser /boost//headers ]
+   [ testing.run title.cpp /orgmode-parser//orgmode-parser /boost//headers ]
+   [ testing.run item.cpp /orgmode-parser//orgmode-parser /boost//headers ]
+ ;
+

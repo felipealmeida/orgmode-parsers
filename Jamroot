@@ -1,0 +1,8 @@
+
+project orgmode-parser
+ : requirements <c++-template-depth>1000
+   <toolset>gcc:<cxxflags>-Wno-unused-local-typedefs
+ ;
+
+alias orgmode-parser : : : : <include>include
+ ;
